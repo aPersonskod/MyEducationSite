@@ -1,0 +1,33 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.myRow {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x))
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fd3a3a;
+    text-align: center
+}
