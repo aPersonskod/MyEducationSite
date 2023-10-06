@@ -31,3 +31,12 @@
     color: #fd3a3a;
     text-align: center
 }
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0;
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px;
+}
